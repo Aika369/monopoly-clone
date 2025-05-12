@@ -8,7 +8,7 @@
 
 1. Клонировать репозиторий:
 
-git clone https://github.com/your-username/monopoly-clone.git
+git clone https://github.com/Aika369/monopoly-clone.git
 cd monopoly-clone
 
 2. Установить зависимости:
