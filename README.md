@@ -23,6 +23,9 @@ node server.cjs
 5. Перейти в браузере по адресу:
 http://localhost:5173
 
+🌐 Публичный доступ:
+- Клиент: [https://monopoly-clone-silk.vercel.app](https://monopoly-clone-silk.vercel.app)
+
 🧠 Проектирование и архитектура:
 - Frontend: React + Vite + TailwindCSS
 - Backend (Multiplayer): Node.js + Socket.IO / boardgame.io
