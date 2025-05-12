@@ -40,3 +40,52 @@
 .read-the-docs {
   color: #888;
 }
+
+/* ✅ Ориентация текста */
+
+.horizontal-text {
+  writing-mode: horizontal-tb;
+  transform: rotate(0deg);
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: center;
+}
+
+/* ✅ Визуальные стили для собственников */
+
+.owned {
+  border: 2px solid black;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+}
+
+.owner-player1 {
+  background-color: #e0f7ff !important;
+}
+
+.owner-player2 {
+  background-color: #ffe4f0 !important;
+}
+
+/* ✅ Базовые стили для модалки */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ✅ Анимация появления модалки */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
